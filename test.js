@@ -1,8 +1,8 @@
 'use strict'
 
-const test = require('tape')
-const interval = require('./')
-const PostgresInterval = require('./')
+import test from 'tape'
+import PostgresInterval from './index.js'
+const interval = PostgresInterval
 
 test(function (t) {
   t.test('parser', function (t) {

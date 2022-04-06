@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = PostgresInterval
+export default PostgresInterval
 
 function PostgresInterval (raw) {
   if (!(this instanceof PostgresInterval)) {
